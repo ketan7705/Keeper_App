@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AddIcon from '@material-ui/icons/Add';
-import Fab from '@material-ui/core/Fab';
-import Zoom from '@material-ui/core/Zoom';
+import Fab from '@material-ui/core/Fab'; //for button
+import Zoom from '@material-ui/core/Zoom'; //for zoom in text area
 
 function CreateArea(props) {
   const [isExpanded,setExpanded] = useState(false);
